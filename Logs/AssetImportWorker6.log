@@ -1,0 +1,159 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 12184 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Project Unity/Action Camera Mode
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+60340
+Successfully changed project path to: C:/Project Unity/Action Camera Mode
+C:/Project Unity/Action Camera Mode
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 164.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Project Unity/Action Camera Mode/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 920MX (ID=0x134f)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003460 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.398 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Switching build target platform(13) subTarget(537395200) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1476 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 3.596400 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.065600 ms MarkObjects: 3.250400 ms  DeleteObjects: 0.099000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 524288, extendedPlatform 0 -> platform 13, subtarget 537395200, extendedPlatform 0
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Import Request.
+  path: Assets/Hello Cardboard Unity/Scenes/HelloCardboard.unity
+  artifactKey: Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hello Cardboard Unity/Scenes/HelloCardboard.unity using Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c181cd0819c1c30918a6a8078eec45c') in 0.037825 seconds
+  Import took 0.044193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 349.207976 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(ff2e5fb32c852a24db4a1ae888aed0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(ff2e5fb32c852a24db4a1ae888aed0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b05633f04020347083a803864f59981') in 0.029824 seconds
+  Import took 0.040681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.457683 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(573c09b22f7ffe540b28cc683a020c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(573c09b22f7ffe540b28cc683a020c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67fc8c9ccb2995afef1afcd386b2040') in 0.065605 seconds
+  Import took 0.071057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.049252 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(573c09b22f7ffe540b28cc683a020c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(573c09b22f7ffe540b28cc683a020c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb6050da92e3782234ef760d52d6a54') in 0.057668 seconds
+  Import took 0.079985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.296225 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(833e9fcb2d51a334893a80db1a89d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(833e9fcb2d51a334893a80db1a89d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f564713ef43c61ea911a7d08961ea3b5') in 0.058905 seconds
+  Import took 0.067657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.498174 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(833e9fcb2d51a334893a80db1a89d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(833e9fcb2d51a334893a80db1a89d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28491eae62c71f1a1ddf81a385d788e8') in 0.130827 seconds
+  Import took 0.377092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.247836 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(fc8b11b4e278dcd46a5759557faab718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(fc8b11b4e278dcd46a5759557faab718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571eaf0783168d29d05f6e71b8bfff47') in 0.061392 seconds
+  Import took 0.066851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.744862 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(fc8b11b4e278dcd46a5759557faab718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(fc8b11b4e278dcd46a5759557faab718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69262310b586341884295c221874bd1') in 0.094808 seconds
+  Import took 0.181201 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.3 MB.
+System memory in use after: 38.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 8.663400 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.095700 ms MarkObjects: 8.196900 ms  DeleteObjects: 0.105600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.3 MB.
+System memory in use after: 38.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 188.986000 ms (FindLiveObjects: 0.889500 ms CreateObjectMapping: 0.167100 ms MarkObjects: 187.797500 ms  DeleteObjects: 0.128900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
